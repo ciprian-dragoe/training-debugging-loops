@@ -1,7 +1,8 @@
-list = [2, 8, 0, 4]
+list = [2, 8]
 
-for i in list:
-  print(i)
+print(list[0])
+print(list[1])
+
 
 
 print('terminar for')

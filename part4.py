@@ -1,36 +1,14 @@
-ceva = 1
+nume = "Grivei"
+stapan = "Andrei"
+print("A fost odata ca niciodata un catel cu numele de:" + nume)
+print("Stapanul lui " + nume + " era " + stapan)
 
-def functia1():
-  print('intru functia1')
-  print('ies functia1')
+descriere = ["pufos", "inalt", "jucaus"]
+print(nume +" era:" + descriere[0])
+print(nume +" era:" + descriere[1])
+print(nume +" era:" + descriere[2])
 
-
-def functia2(intentie):
-  print('intru functia2')
-  print('intentie: ', intentie)
-  print('ies functia2')
-
-
-def functia3(alta_intentie):
-  print('intru functia3')
-  print('alta_intentie: ', alta_intentie)
-  print('ies functia3')
-  return alta_intentie * 2
-
-
-def functia4():
-  print('intru functia4')
-  functia2("argument din partea functia4")
-  print('ies functia4')
-
-functia1()
-print('===========')
-functia2(1)
-functia2(3)
-print('===========')
-raspuns = functia3(2) # raspuns = 4
-print(raspuns)
-print(functia3(ceva)) # print(functia3(1)) # print(2)
-print('===========')
-functia4()
-print('terminat program')
+actiune = "latrat la un om"
+motivate = "acesta citea mobilul si nu a vazut ca il putea o masina"
+print(nume + " intr-o zi s-a hotarat sa " + actiune)
+print("A facut acest lucru pentru ca " + motivate)

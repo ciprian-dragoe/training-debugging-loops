@@ -1,4 +1,5 @@
 print(1)
+print(1.5)
 print(2) # un alt comentariu
 print(3)
 # urmeaza sa execut linia 5
